@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>银杏苑</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-12-02T18:46:05.161Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>李喆</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>建站</title>
+    <link href="http://example.com/2023/12/03/%E5%BB%BA%E7%AB%99/"/>
+    <id>http://example.com/2023/12/03/%E5%BB%BA%E7%AB%99/</id>
+    <published>2023-12-02T18:43:56.351Z</published>
+    <updated>2023-12-02T18:46:05.161Z</updated>
+    
+    <content type="html"><![CDATA[<p>一.</p><p>前言：</p><p>在之前我已经完成了GitHub的注册还有git的安装，现在就是将git与GitHub绑定了。为什么要绑定GitHub呢？就是为了方便我们上传文件。虽然在GitHub上我们可以直接上传文件，但是我试了一下发现并不好用，点击上传完全没反应，可能是网络的原因吧。所以我们利用SSH来完成GitHub的绑定并提交文件，这样很方便快捷。首先来简单介绍一下SSH协议。</p><p>SSH（安全外壳协议，Secure Shell 的缩写）是建立在应用层基础上的安全协议。SSH 是目前较可靠，专为远程登录会话和其他网络服务提供安全性的协议，利用 SSH 协议可以有效防止远程管理过程中的信息泄露问题。简单来说，SSH就是保障你的账户安全，将你的数据加密压缩，不仅防止其他人截获你的数据，还能加快传输速度。如果想详细了解的话，可以看这篇文章：<a href="https://link.zhihu.com/?target=https://blog.csdn.net/qq_35246620/article/details/54317740">详述 SSH 的原理及其应用 - CSDN</a>，下面就详细介绍如何绑定GitHub和提交文件。</p><p>1.绑定GitHub</p><p><img src="https://s2.loli.net/2023/12/01/ycuCVQb2nrElpwG.png" alt="image-20231201230419927"></p><ol start="2"><li></li></ol><p>在GitHub的设置中</p><p><img src="https://s2.loli.net/2023/12/01/jIf3TyQu4aMU6qb.png" alt="image-20231201232000565"></p><p>在git中输入ssh -T <a href="mailto:git@github.com">git@github.com</a>验证</p><p><img src="C:\Users\Amazing\AppData\Roaming\Typora\typora-user-images\image-20231201232407098.png" alt="image-20231201232407098"></p><p>提交文件：</p><p>使用 git add 文件名    确认要上传的文件已经被Git识别并被跟踪</p><p>git commit -m  “xxx file”  提交更改并添加一个提交消息</p><p>git push origin master  将提交推送到远程仓库</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;一.&lt;/p&gt;
+&lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;在之前我已经完成了GitHub的注册还有git的安装，现在就是将git与GitHub绑定了。为什么要绑定GitHub呢？就是为了方便我们上传文件。虽然在GitHub上我们可以直接上传文件，但是我试了一下发现并不好用，点击上传完全没反</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>欢迎来到我的网站</title>
+    <link href="http://example.com/2023/12/02/hello-world/"/>
+    <id>http://example.com/2023/12/02/hello-world/</id>
+    <published>2023-12-01T18:51:14.154Z</published>
+    <updated>2023-12-02T17:15:35.598Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/12/03/5W2C6lIyzgTJ38w.png" alt="image-20231203011528046"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2023/12/03/5W2C6lIyzgTJ38w.png&quot; alt=&quot;image-20231203011528046&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
