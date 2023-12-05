@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2023/12/02/hello-world/</loc>
+    <loc>http://example.com/categories/index.html</loc>
     
-    <lastmod>2023-12-04</lastmod>
+    <lastmod>2023-12-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,16 @@
   <url>
     <loc>http://example.com/2023/12/05/java/</loc>
     
-    <lastmod>2023-12-04</lastmod>
+    <lastmod>2023-12-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/12/02/hello-world/</loc>
+    
+    <lastmod>2023-12-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -38,15 +47,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
-    
-    <lastmod>2023-12-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/2023/12/03/%E5%BB%BA%E7%AB%99/</loc>
     
     <lastmod>2023-12-02</lastmod>
@@ -58,12 +58,19 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2023-12-04</lastmod>
+    <lastmod>2023-12-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
 
+  
+  <url>
+    <loc>http://example.com/categories/Hexo%E7%9A%84%E5%BB%BA%E8%AE%BE%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2023-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>

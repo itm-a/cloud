@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>银杏苑</title>
+  <title>吉吉国王爱吃鱼</title>
   
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-12-04T17:34:26.408Z</updated>
+  <updated>2023-12-05T06:53:55.574Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,20 +21,16 @@
     <link href="http://example.com/2023/12/05/java/"/>
     <id>http://example.com/2023/12/05/java/</id>
     <published>2023-12-04T16:01:17.317Z</published>
-    <updated>2023-12-04T17:34:26.408Z</updated>
+    <updated>2023-12-05T06:53:55.574Z</updated>
     
     <content type="html"><![CDATA[<h2 id="函数重载："><a href="#函数重载：" class="headerlink" title="函数重载："></a>函数重载：</h2><p>方法名不相同，</p><p>参数列表不同（类型不同或者参数个数不同）</p><p>与返回值无关</p><p>Foreach循环</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//foreach循环</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">demo5</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">int</span>[] arr = &#123;<span class="number">1</span>,<span class="number">3</span>,<span class="number">5</span>,<span class="number">7</span>,<span class="number">9</span>&#125;;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i:arr) &#123;<span class="comment">//i:接受元素，arr：代表数组</span></span><br><span class="line">            System.out.println(i);<span class="comment">//(无下表)</span></span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr><p>数组的三种声明方式</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h2 id=&quot;函数重载：&quot;&gt;&lt;a href=&quot;#函数重载：&quot; class=&quot;headerlink&quot; title=&quot;函数重载：&quot;&gt;&lt;/a&gt;函数重载：&lt;/h2&gt;&lt;p&gt;方法名不相同，&lt;/p&gt;
-&lt;p&gt;参数列表不同（类型不同或者参数个数不同）&lt;/p&gt;
-&lt;p&gt;与返回值无关&lt;/p&gt;
-&lt;p&gt;F</summary>
-      
+    <summary type="html">一道的问题</summary>
     
     
+    
+    <category term="Hexo的建设测试" scheme="http://example.com/categories/Hexo%E7%9A%84%E5%BB%BA%E8%AE%BE%E6%B5%8B%E8%AF%95/"/>
     
     
   </entry>
@@ -66,7 +62,7 @@
     <link href="http://example.com/2023/12/02/hello-world/"/>
     <id>http://example.com/2023/12/02/hello-world/</id>
     <published>2023-12-01T18:51:14.154Z</published>
-    <updated>2023-12-04T17:34:38.716Z</updated>
+    <updated>2023-12-05T06:34:37.227Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/12/03/5W2C6lIyzgTJ38w.png" alt="image-20231203011528046"></p>]]></content>
     
