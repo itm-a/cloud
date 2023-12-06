@@ -2612,7 +2612,6 @@ h1.page-title + .tag-cloud-list {
   overflow: hidden;
   margin-top: 20px;
   padding: 20px 24px;
-  background: rgba(255,255,255,0.8);
 }
 #aside-content .card-info .author-info__name {
   font-weight: 500;
