@@ -1,5 +1,5 @@
-http://example.com/categories/index.html
 http://example.com/2023/12/05/java/
+http://example.com/categories/index.html
 http://example.com/2023/12/02/hello-world/
 http://example.com/link/index.html
 http://example.com/tags/index.html
